@@ -1,9 +1,9 @@
 /*
 
-The base of this code was taken from... (thanks nehe, once again)
+The base of this code was taken from... (thanks again Nehe, RiP)
 
-OpenGL 1.2 viewer, no STL, no glut, no exception! Should be C++98 complaint
-spiroyster :)
+OpenGL 1.2 PPM (P3 only) viewer, no STL, no glut, no exception! 
+Should be C++98 complaint. Win32.
 
  *		This Code Was Created By Jeff Molofee 2000
  *		A HUGE Thanks To Fredric Echols For Cleaning Up
