@@ -20,7 +20,8 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
-CymapViewerRC/
+
+!ppmgl.exe
 
 # Roslyn cache directories
 *.ide/
