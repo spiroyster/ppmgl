@@ -1,9 +1,7 @@
 /*
 
 The base of this code was taken from... (thanks again Nehe, RiP)
-
-OpenGL 1.2 PPM (P3 only) viewer, no STL, no glut, no exception! 
-Should be C++98 complaint. Win32.
+OpenGL 1.2 PPM (P3 only) viewer, no STL, no glut. Win32 o.0
 
  *		This Code Was Created By Jeff Molofee 2000
  *		A HUGE Thanks To Fredric Echols For Cleaning Up
@@ -270,10 +268,7 @@ void LoadGLTexture(PPMImage* ppmimage)
                 delete imageSubTexture;
             }
         }
-
-        
     }
-
 
     glEnable(GL_TEXTURE_2D);
 }
@@ -571,7 +566,6 @@ int WINAPI WinMain(	HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
     // split command line into tokens.
     char seps[] = " ,\t\n";
     
-
     // Establish string and get the first token:  
     char* token;
     token = strtok(lpCmdLine, seps); // C4996  

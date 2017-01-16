@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ppmgl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\CORDEL~1.BAR\AppData\Local\Temp\RSP11F3.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"ppmgl___Win32_Release/ppmgl.pch" /YX /Fo"ppmgl___Win32_Release/" /Fd"ppmgl___Win32_Release/" /FD /c 
+"C:\Users\cordell.barron\Documents\ppmgl\ppmgl.cpp"
+]
+Creating command line "cl.exe @C:\Users\CORDEL~1.BAR\AppData\Local\Temp\RSP11F3.tmp" 
+Creating temporary file "C:\Users\CORDEL~1.BAR\AppData\Local\Temp\RSP11F4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:no /pdb:"ppmgl___Win32_Release/ppmgl.pdb" /machine:I386 /out:"ppmgl___Win32_Release/ppmgl.exe" 
+.\ppmgl___Win32_Release\ppmgl.obj
+]
+Creating command line "link.exe @C:\Users\CORDEL~1.BAR\AppData\Local\Temp\RSP11F4.tmp"
+<h3>Output Window</h3>
+Compiling...
+ppmgl.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ppmgl.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
